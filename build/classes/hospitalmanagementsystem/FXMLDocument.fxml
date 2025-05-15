@@ -37,7 +37,9 @@
                         <String fx:value="radius" />
                      </styleClass></Button>
                   <ComboBox fx:id="loginusers" layoutX="92.0" layoutY="471.0" prefWidth="150.0" promptText="Kullanıcı Seç" styleClass="white-bg" stylesheets="@../design/PageDesign.css">
-                   
+                     <cursor>
+                        <Cursor fx:constant="NONE" />
+                     </cursor>
                   </ComboBox>
                   <Label layoutX="83.0" layoutY="515.0" text="Hesabınız yok mu ?" />
                   <Hyperlink fx:id="login_registerHere" layoutX="195.0" layoutY="512.0" onAction="#switchForm" text="kayıt ol" />
